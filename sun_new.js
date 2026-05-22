@@ -2732,7 +2732,7 @@ function savePredictionToHistory(type, phien, prediction, confidence) {
     phien_hien_tai: phien.toString(),
     du_doan: normalizeResult(prediction),
     ti_le: `${confidence}%`,
-    id: '@anhphong29',
+    id: 'HoangHuuViet',
     timestamp: new Date().toISOString()
   };
   
