@@ -2772,7 +2772,7 @@ app.get('/sun', async (req, res) => {
       phien_hien_tai: nextPhien.toString(),
       du_doan: normalizeResult(result.prediction),
       ti_le: `${result.confidence}%`,
-      id: '@anhphong29'
+      id: '@phaichiu'
     });
   } catch (error) {
     console.error('Error:', error);
